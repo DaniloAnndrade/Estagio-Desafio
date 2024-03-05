@@ -11,7 +11,7 @@ for b in range(20):
 
 
 # Resposta: Numeros Impar
-print("Resposta: Numeros Impar")
+print("\nResposta: Numeros Impar")
 print("\nfim\n")
 
 
@@ -24,7 +24,7 @@ for b in range(100):
     if cont2 % 2 == 0:
         print(cont2, end="-")
 # Resposta: Numeros par
-print("Resposta: Numeros par")
+print("\nResposta: Numeros par")
 print("\nfim\n")
 
 #c) 0, 1, 4, 9, 16, 25, 36, ____
@@ -37,7 +37,7 @@ for c in range(100):
         print(cont3, end="-")
 
 # Resposta: RAiz Quadrada
-print("Resposta: Raiz Quadrada")
+print("\nResposta: Raiz Quadrada")
 print("\nfim\n")  
 
 #d) 4, 16, 36, 64, ____
@@ -48,9 +48,8 @@ for i in range(1, 10 + 1):
     sequencia = (2 * i) ** 2
     print(sequencia, end="-")
 
-
-
-
+# Resposta: Progressão Aritmética
+print("\nResposta: Progressão Aritmética")
 print("\nfim\n")  
 
 #e) 1, 1, 2, 3, 5, 8, ____
@@ -69,3 +68,14 @@ print("Resposta: Fibonacci")
 print("\nfim\n")  
 
 #f) 2,10, 12, 16, 17, 18, 19, ____
+
+x = 2
+y = 10
+w = x + y
+print(x, end="-")
+print(y, end="-")
+for f in range(w, 50, 2):
+    print(f, end="-")
+
+# Resposta: Progreção de 2 em 2 apartir da soma de 2 numeros
+print("\nResposta: Progreção de 2 em 2 apartir da soma de 2 numeros")
